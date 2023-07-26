@@ -1,0 +1,39 @@
+#fi{
+    background-color: aquamarine;
+    color: black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding: 2px;
+}
+#btn{
+    background-color: rgb(201, 173, 228);
+    border: 2px;
+    font-size: xx-large;
+    margin: 10%;
+    border-radius: 20px;
+}
+.border-animation {
+    width: 200px;
+    height: 200px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    animation: animateBorder 3s infinite linear;
+  }
+  @keyframes animateBorder {
+    0% {
+      border-color: #FF0000;
+    }
+    25% {
+      border-color: #00FF00;
+    }
+    50% {
+      border-color: #0000FF;
+    }
+    75% {
+      border-color: #FFFF00;
+    }
+    100% {
+      border-color: #FF00FF;
+    }
+  }
